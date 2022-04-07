@@ -1,0 +1,164 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.windowRegistration__error_handler {
+    padding: 0px;
+    margin: 0px 0px 10px;
+    visibility: hidden;
+    color: #F14048;
+}
+
+.windowRegistration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.windowRegistration__RectTop {
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    background: #f2f2f2;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.windowRegistration__mainWindow__RectCenter {
+    height: 100px;
+    background: url(images/bgInFormReg.png), #e1e1e1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.windowRegistration__mainBg {
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInTop {
+    display: flex;
+    border: none;
+    justify-content: center;
+    margin-right: 30px;
+    font-family: Oxygen, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+    font-feature-settings: "liga" off;
+    color: #333333;
+    background: inherit;
+}
+
+.windowRegistration__mainWindow {
+    width: 500px;
+    height: 550px;
+    background: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-bottom: 35px;
+}
+
+.windowRegistration__mainWindow__formGroup {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.RegistrationPosition {
+    height: 41px;
+    width: 397px;
+    background: #f9f9f9;
+    margin-bottom: 4%;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: "Oxygen", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.RegistrationFirstName,
+.RegistrationLastName,
+.RegistrationEmail,
+.RegistrationPassword,
+.RegistrationPassRepeat {
+    height: 35px;
+    width: 85%;
+    background: #f9f9f9;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: "Oxygen", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.RegistrationFirstName:focus,
+.RegistrationLastName:focus,
+.RegistrationEmail:focus,
+.RegistrationPassword:focus,
+.RegistrationPassRepeat:focus {
+    outline: none;
+    border-color: #2f2f2f;
+    transition: .3s;
+}
+
+.RegistrationSignUp {
+    width: 225px;
+    height: 35px;
+
+    margin-top: 5%;
+    background: #f9f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    border-radius: 8px;
+    border-width: 0;
+    font-family: "Oxygen", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+    color: #4f4f4f;
+    border-style: solid;
+    text-align: center;
+    outline: none;
+}
+
+.RegistrationSignUp:hover {
+    background: #F2F2F2;
+    transition: .1s;
+}
+
+.signInTop__link {
+    text-decoration: none;
+    color: inherit;
+}
